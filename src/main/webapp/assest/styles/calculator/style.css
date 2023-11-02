@@ -1,0 +1,46 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+main {
+    background: #d6e4e9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    width: 220px;
+}
+
+.wrap-group-input {
+    display: flex;
+    column-gap: 20px;
+}
+
+.wrap-button-input {
+    margin: 25px 0;
+    display: flex;
+    column-gap: 25px;
+}
+
+.btn {
+    flex: 1;
+}
+
+.btn-result {
+    width: 180px;
+    display: block;
+    margin: 10px auto 20px;
+}
+
+.input-result-group {
+    width: 100%;
+}
+
+.input-result {
+	color : #595c5f;
+}

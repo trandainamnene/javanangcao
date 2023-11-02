@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.content {
+    height: 100vh;
+    background: url(https://student.husc.edu.vn/Themes/Login/images/Login_bg_lg.png);
+    background-size: auto;
+    display: flex;
+    padding-top: 45px;
+    justify-content: center;
+}
+
+.thumb__logo {
+    width: 112px;
+    height: 112px;
+    object-fit: contain;
+}
+
+.thumb {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 77px;
+}
+
+.form-wrap {
+    width: 325px;
+    background: #fcf8f8;
+    padding: 40px 15px;
+    border: 7px solid rgb(127, 188, 234);
+    margin-left: 140px;
+    align-self: center;
+}
+
+.form__inner {
+    position: relative;
+}
+
+.login-form__image {
+    position: absolute;
+    right: 20px;
+    top: -40px;
+    right: 15px;
+    translate: 0 -50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #FFF;
+}
+
+.login-form__heading {
+    color: #006eb7;
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.login-form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.login-form-group__label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.login-form-group__id {
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    line-height: 1.4;
+}
+
+.login-form-group__id:focus {
+    border-color: #5cb9f7;
+    outline: none;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.login-form__submit {
+    background: #0773ba;
+    width: 100%;
+    color: #FFF;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.login-form__submit:hover {
+    color: #FFF;
+    background: #286090;
+}
+
